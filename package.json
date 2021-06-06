@@ -1,0 +1,35 @@
+{
+  "name": "@tar-erpedia/resources-compression",
+  "version": "1.1.2",
+  "description": "compress resources into a new assets folder",
+  "main": "./bin/resources-compression.js",
+  "bin": {
+    "resources-compression": "./bin/resources-compression.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tar-erpedia/resources-compression.git"
+  },
+  "keywords": [
+    "image",
+    "compression",
+    "avif",
+    "webp"
+  ],
+  "author": "Rom Kadria",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tar-erpedia/resources-compression/issues"
+  },
+  "homepage": "https://github.com/tar-erpedia/resources-compression#readme",
+  "dependencies": {
+    "sharp": "^0.28.1",
+    "prompts": "^2.4.1",
+    "fs-extra": "^9.1.0",
+    "glob": "^7.1.6"
+  }
+}
